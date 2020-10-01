@@ -95,6 +95,11 @@ def print_states(list_final):
     print(" final solution")
     for l in list_final:
         print("Move : " + str(l.act) + "\n" + "Result : " + "\n" + str(l.data) )
+        
+#USELESS FUNCTION
+def print_hack_path(node):
+    print(node.parent)
+    print(next)
 
         
 def exploring_nodes(node):
